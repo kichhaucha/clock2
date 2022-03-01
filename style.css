@@ -1,0 +1,63 @@
+body{
+    background-image: url("tere.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cont{
+    position: relative;
+   
+    margin: auto;
+    /* border: 2px solid blue; */
+    height: 45vw; 
+     width: 44vw;
+    background-image: url("clock.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.5;
+    
+ 
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+/* .cent{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+#hour{
+/* background-color: yellowgreen; */
+width: 8px;
+    height: 144px;
+    top: 157px;
+    /* left: 48.2%; */
+    left: 49.1%;
+  /* display: none; */
+}
+#minute{
+    /* background-color: aqua; */
+    width: 10px;
+    height: 176px;
+    top: 128px;
+    left: 49.0%;
+    /* display: none; */
+    opacity: 0.8;
+}
+#second{
+    /* background-color: crimson; */
+    width: 7px;
+    height: 217px;
+    top: 86px;
+    left: 49.2%;
+    /* display: none; */
+    opacity: 0.8;
+}
